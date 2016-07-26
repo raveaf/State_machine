@@ -1,6 +1,6 @@
-This is the state machine implementation I wrote to use it with Unity. With it you can write the update, enter and leave methods of the different states as methods of the MonoBehaviour with easy access to all it's fields. The appropriate methods will be called when the state machine is updated.
+This is the state machine implementation I wrote to use it with Unity. I recommend to write the update, enter and leave methods of the different states as methods of the MonoBehaviour to have named methods with easy access to all of the fields of the MonoBehaviour. The appropriate methods will be called when the state machine is updated.
 
-######Instructions:
+##Instructions:
 
 The state machine and the states should be fields of the MonoBehaviour:
 ```
@@ -12,7 +12,7 @@ public class Bob : MonoBehaviour {
     State special_state;
 ```
 
-Write (private) methods, which will be called when a specific state will be entered, left or updated:
+Write methods, which will be called when a specific state will be entered, left or updated:
 ```
 	void update_default () { 
 		//do stuff
