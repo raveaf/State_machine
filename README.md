@@ -55,8 +55,10 @@ void Update () {
 Change and query the current state with the state field of the state machine:
 ```
 state_machine.state = special_state;
-
-if (state_machine.state == special_state) {
+```
+```
+if (state_machine.state != default_state 
+	&& state_machine.state != special_state ) {
 	//do stuff
 }
 ```
