@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace raweaf.state_machine {
+namespace raveaf.state_machine {
 
     public class State_machine {
 
